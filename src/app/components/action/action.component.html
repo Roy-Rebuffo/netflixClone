@@ -1,0 +1,8 @@
+<div class="row">
+  <h2>NETFLIX ORIGINALS</h2>
+  <div class="row__posters">
+    <div *ngFor="let movie of listaDeMovies" class="row__poster row__posterLarge">
+      <app-movie [movie]="movie"></app-movie>
+    </div>
+  </div>
+</div>
